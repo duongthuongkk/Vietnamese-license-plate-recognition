@@ -10,4 +10,4 @@
 
 **Step 3 : Coppy name of image in step 2 to change ```input_media``` in line 11 of file ```inference.py```** 
 
-**Step 4 : Run ```inference.py``` then you will see the results on screen or ```results``` folder**
+**Step 4 : Run ```inference.py``` and then you will see the results on screen or ```results``` folder**
