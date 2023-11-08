@@ -9,3 +9,5 @@
 **Step 2 : Choose the image which you want to predict and save it in folder ```Vietnamese-license-plate-recognition```**
 
 **Step 3 : Coppy name of image in step 2 to change ```input_media``` in line 11 of file ```inference.py```** 
+
+**Step 4 : Run ```inference.py``` then you will see the results on screen or ```results``` folder
