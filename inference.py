@@ -9,6 +9,7 @@ import cv2
 # Input the necessary path
 source_folder = '/content/drive/MyDrive/License_Plates'                          # Folder contains input image and two model
 input_media = '6314f8ef-20230105_082803.jpg'                                     # Name of image in source folder
+
 # Show license plate function
 def license_plate_show(labels_path):
   data = []
