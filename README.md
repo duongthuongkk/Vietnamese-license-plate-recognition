@@ -18,4 +18,3 @@ The dataset is used for training model in this project
 This dataset is compiled from some original dataset:
 - [license plates chars 2 Computer Vision Project](https://universe.roboflow.com/jakub-skibiski/license-plates-chars-2)
 - [Vienamese Plate Dataset](https://github.com/winter2897/Real-time-Auto-License-Plate-Recognition-with-Jetson-Nano/blob/main/doc/dataset.md)
-- [Vietnam-License-Plate-Recognition Computer Vision Project](https://universe.roboflow.com/dataset-format-conversion-iidaz/vietnam-license-plate-recognition)
