@@ -11,3 +11,5 @@
 **Step 3 : Coppy name of image in step 2 to change ```input_media``` in line 10 of file ```inference.py```** 
 
 **Step 4 : Run ```inference.py``` and then you will see the results on screen or in ```results``` folder**
+## Dataset
+[Project dataset source](https://drive.google.com/file/d/1xOWRkpCgPEPAx1Tdc-tk39pgZixb7_ar/view?usp=drive_link)
