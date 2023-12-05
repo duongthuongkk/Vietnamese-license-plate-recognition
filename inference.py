@@ -136,7 +136,7 @@ while(cap.isOpened()):
         # Remove the previous results
         if os.path.exists(source_folder + '/results'):
             shutil.rmtree(source_folder + '/results')
-        frame = cv2.resize(frame,(640,480))
+        frame = cv2.resize(frame,(640,640))
         
         # Detect the license plates
         results_detect = model_detect(frame, conf = 0.4, save=True, save_txt = True, save_crop = True, project = source_folder, name = 'results')
@@ -154,8 +154,6 @@ while(cap.isOpened()):
                     plate_predict = license_plate_show(l_image)
                     print(plate_predict)
                     predict_image = put_plate_on_image(frame,source_path,detected_label,plate_predict)
-                    os.chdir(source_folder)
-                    cv2.imwrite("a.jpg",predict_image)
                     cv2.imshow("Plate crop",crop)
         annotated_frame = results_detect[0].plot()
         
